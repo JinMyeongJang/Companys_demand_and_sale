@@ -34,7 +34,7 @@ for(i in 1:110){
   Sale_Won1[i]<-NA
 }
 
-
+cnt = 0
 for(i in 1:110){
   if(df$Customer_Demand[i] > Avg_Customer_Demand){
     Company_ID_number1[i] <- df$Company_ID_number[i]
